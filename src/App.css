@@ -11,10 +11,12 @@ footer {
   font-family: "Roboto Mono", monospace;
   margin-bottom: 50px;
   font-size: 12px;
+  color: #2e3650;
 }
 
 a {
   text-decoration: none;
+  color: #4a5780;
 }
 .app-wrapper {
   margin-top: 50px;
@@ -26,9 +28,10 @@ a {
   width: 400px;
   min-height: 550px;
   background: #c3c3c3;
+
   text-align: center;
   margin: 30px auto;
-  border: 3px solid #f9f9f9;
+  border: 5px solid #4a5780;
   border-radius: 10px;
   box-shadow: 3px 3px 5px rgb(0 0 0 / 10%);
 }
@@ -51,7 +54,7 @@ a {
   width: 200px;
   background: transparent;
   color: #4a5780;
-  font-family: "Roboto Mono", monospace;
+  font-family: "Varela Round", sans-serif;
 }
 .edit-todo-button {
   padding: 14px 8px;
@@ -59,20 +62,20 @@ a {
   border-radius: 0 4px 4px 0;
   cursor: pointer;
   outline: none;
-  background: #aebbe4;
+  background: #8f9cc5;
   color: #fff;
   font-family: "Varela Round", sans-serif;
 }
 .edit-todo-input {
   padding: 10px 32px 12px 14px;
   border-radius: 4px 0 0 4px;
-  border: 2px solid #aebbe4;
+  border: 2px solid #8f9cc5;
   outline: none;
   width: 200px;
   background: transparent;
   color: #4a5780;
   margin: 10px auto;
-  font-family: "Roboto Mono", monospace;
+  font-family: "Varela Round", sans-serif;
 }
 
 .todo-row {
@@ -102,4 +105,23 @@ a {
 
 .edit-icon {
   color: #4a5780;
+}
+
+@media (max-width: 640px) {
+  .todo-list-app {
+    width: 320px;
+    min-height: 600px;
+  }
+
+  .todo-input {
+    width: 150px;
+  }
+  .edit-todo-input {
+    width: 150px;
+  }
+  .todo-row {
+    padding: 12px 8px;
+    border-radius: 5px;
+    width: 270px;
+  }
 }
