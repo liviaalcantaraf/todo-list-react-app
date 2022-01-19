@@ -41,7 +41,7 @@ function TodoForm(props) {
         <>
           <input
             type="text"
-            placeholder="add a todo"
+            placeholder=""
             value={input}
             name="text"
             className="todo-input"
