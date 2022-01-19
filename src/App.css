@@ -109,7 +109,7 @@ a {
 
 @media (max-width: 640px) {
   .todo-list-app {
-    width: 320px;
+    width: 290px;
     min-height: 600px;
   }
 
