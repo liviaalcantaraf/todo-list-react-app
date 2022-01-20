@@ -28,7 +28,7 @@ function TodoForm(props) {
         <>
           <input
             type="text"
-            placeholder="Update your item"
+            placeholder=""
             value={input}
             name="text"
             className="edit-todo-input"
